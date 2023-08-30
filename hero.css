@@ -1,0 +1,310 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(#1B4AC5, #020B24);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+}
+
+body {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(#1B4AC5, #020B24);
+    background: -moz-linear-gradient(#1B4AC5, #020B24);
+    background: -ms-linear-gradient(#1B4AC5, #020B24);
+    background: -o-linear-gradient(#1B4AC5, #020B24);
+    background: linear-gradient(#1B4AC5, #020B24);
+}
+
+.wwrDiv {
+    background-color: whitesmoke;
+    animation: appear 1s ease-in;
+    align-items: center;
+    vertical-align: center;
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.left-section-header {
+    display: flex;
+    margin-left: 80px;
+}
+
+.website-logo {
+    cursor: pointer;
+}
+
+.center-section-header {
+    display: flex;
+    text-align: center;
+}
+
+.wwrHeader {
+    font-family: Prompt;
+    color: #1B4AC5;
+    font-size: 230%;
+    animation: appear 1s ease-in;
+    cursor: pointer;
+}
+
+.right-section-header {
+    display: flex;
+    text-align: center;
+    margin-right: 80px;
+    gap: 50px;
+}
+
+.about-us-button,
+.lessons-button {
+    color: white;
+    background-color: #1B4AC5;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.about-us-button:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.about-us-button:active {
+    opacity: 0.5;
+    transition: 0s;
+}
+
+.lessons-button:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.lessons-button:active {
+    opacity: 0.5;
+    transition: 0s;
+}
+
+.mission {
+    text-align: center;
+    padding-top: 120px;
+    font-family: Poppins;
+    color: whitesmoke;
+}
+
+.taught {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Prompt;
+    font-size: xx-large;
+    margin-top: 14.5%;
+}
+
+.arrow {
+    padding-top: 160px;
+    text-align: center;
+}
+
+.math {
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+}
+
+.additionSign {
+    height: 115px;
+    padding-top: 50px;
+    margin-right: 500px;
+    transition: all 0.25s;
+}
+
+.additionSign:hover {
+    height: 125px;
+}
+
+.mathText {
+    color: whitesmoke;
+    margin-top: 200px;
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+.textMath {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSign {
+    position: relative;
+    width: 85px;
+    bottom: -130px;
+    transition: all .5s;
+}
+
+.divSign:hover {
+    width: 100px;
+}
+
+.sciText {
+    margin-top: 300px;
+    color: whitesmoke;
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+/* .dnaImg {
+    width: 125px;
+    position: relative;
+    bottom: -295px;
+    left: 800px;
+    transition: all 0.5s;
+}
+
+.hazardImg {
+    width: 125px;
+    position: relative;
+    bottom: -395px;
+    left: 1050px;
+    transition: all 0.7s;
+}
+
+.dnaImg:hover {
+    width: 145px;
+}
+
+.hazardImg:hover {
+    width: 145px;
+} */
+
+.hazard {
+    margin-left: 58%;
+}
+
+.dna {
+    width: 90px;
+    position: relative;
+    bottom: -100%;
+    margin-left: 38%;
+    transition: all 0.6s;
+}
+
+.dna:hover {
+    width: 110px;
+}
+
+.otherSub {
+    margin-top: 300px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.book1,
+.book2 {
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s;
+}
+
+.book1:hover,
+.book2:hover {
+    width: 120px;
+    height: 120px;
+}
+
+.otherSubjects {
+    color: whitesmoke;
+    margin-top: 200px;
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+.handDollar {
+    position: relative;
+    bottom: -50%;
+    right: -60%;
+    width: 175px;
+    transition: all 0.6s;
+}
+
+.handDollar:hover {
+    width: 200px;
+}
+
+.dollarBag {
+    width: 150px;
+    transition: all 0.3s;
+}
+
+.dollarBag:hover {
+    width: 125px;
+}
+
+.lessonsDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.lessons {
+    font-family: Prompt;
+    color: #1B4AC5;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: all 1s;
+}
+
+.lessons:hover {
+    background-color: #1B4AC5;
+    color: whitesmoke;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
+
+.size {
+    font-size: 50px;
+}

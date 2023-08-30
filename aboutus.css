@@ -1,0 +1,322 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.wwrDiv {
+    background-color: whitesmoke;
+    animation: appear 1s ease-in;
+    align-items: center;
+    vertical-align: center;
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.left-section-header {
+    display: flex;
+    margin-left: 80px;
+}
+
+.website-logo {
+    cursor: pointer;
+}
+
+.center-section-header {
+    display: flex;
+    text-align: center;
+}
+
+.wwrHeader {
+    font-family: Prompt;
+    color: whitesmoke;
+    font-size: 230%;
+    animation: appear 1s ease-in;
+    cursor: pointer;
+}
+
+.right-section-header {
+    display: flex;
+    text-align: center;
+    margin-right: 80px;
+    gap: 50px;
+}
+
+.about-us-button,
+.lessons-button,
+.contact-header {
+    color: #1B4AC5;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.about-us-button:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.about-us-button:active {
+    opacity: 0.5;
+    transition: 0s;
+}
+
+.lessons-button:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.lessons-button:active {
+    opacity: 0.5;
+    transition: 0s;
+}
+
+@keyframes appearence {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes travel {
+    from {
+        transform: scale(2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes color {
+    from {
+        color: #1B4AC5;
+    }
+
+    to {
+        color: transparent;
+    }
+}
+
+@keyframes letterSpacing {
+    from {
+        letter-spacing: 20px;
+    }
+
+    to {
+        letter-spacing: normal;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(275);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
+
+.arrow2 {
+    animation: rotate 1s ease-in-out;
+}
+
+.desc {
+    animation: travel 1s ease-in-out;
+}
+
+.centerTitle {
+    animation: appearence 1s ease-in-out;
+}
+
+.wwrDiv {
+    background: #1B4AC5;
+    text-align: center;
+    padding: 10px;
+    font-family: Prompt;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+
+.wwrDiv2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnStyling {
+    padding: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    margin: 5px;
+    text-align: right;
+}
+
+.wwrHeader {
+    padding: 10px;
+    margin-right: 10%;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: end;
+}
+
+.welcome {
+    animation: color 5s ease;
+    padding-top: 10px;
+    font-family: Prompt;
+    text-align: center;
+    font-size: 100px;
+    background: linear-gradient(to right, red, red, red, blue, blue, blue);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.desc {
+    color: #1B4AC5;
+    font-size: 40px;
+    font-family: Prompt;
+    font-weight: 500;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 100px;
+}
+
+.arrow {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    animation: rotate 1s ease-in-out;
+}
+
+.pad {
+    padding-top: 200px;
+}
+
+/* .line {
+    width: 0px;
+    height: 500px;
+    transform-origin: 0 0;
+    border: 0.50px #1B4AC5 solid;
+} */
+
+.descMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMonke {
+    font-family: prompt;
+    text-align: right;
+    margin-bottom: 300px;
+}
+
+.mrMonkeTM,
+.kurbaan,
+.coOwner {
+    font-size: 60px;
+    text-align: left;
+    color: #1B4AC5;
+}
+
+.coOwner,
+.coOwner2 {
+    font-size: large;
+    color: #5B89FF;
+    margin-bottom: 100px;
+}
+
+.aboutKhar {
+    font-family: prompt;
+    margin-bottom: 300px;
+}
+
+.kurbaan,
+.coOwner2 {
+    text-align: right;
+}
+
+/* .line2 {
+    display: flex;
+    justify-content: center;
+} */
+
+.line {
+    padding: 20px;
+}
+
+.typemonkeDesc {
+    display: inline-block;
+}
+
+.monkeDesc {
+    border-right: 1px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 7s steps(37), cursor .4s step-end infinite alternate;
+}
+
+.typekharDesc {
+    display: inline-block;
+}
+
+.kharDesc {
+    border-right: 1px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 7s steps(37), cursor .4s step-end infinite alternate;
+}
+
+.monkeDesc,
+.kharDesc {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.mrMonkeTM,
+.kurbaan {
+    animation: letterSpacing 1s ease-in-out;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}

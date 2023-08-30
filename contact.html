@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Playfair+Display&family=Prompt&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+  <div class="wwrDiv">
+    <div class="left-section-header">
+      <a href="homepage.html" target="_blank">
+        <img src="website-logo.png" class="website-logo" width="50%" />
+      </a>
+    </div>
+    <div class="center-section-header">
+      <a href="homepage.html" target="_blank">
+        <h1 class="wwrHeader">Unbroke.com</h1>
+      </a>
+    </div>
+    <div class="right-section-header">
+      <a href="aboutus.html" target="_blank">
+        <button class="about-us-button">About Us</button>
+      </a>
+      <a href="lessons.html" target="_blank">
+        <button class="lessons-button">Lessons</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="contact-section">
+    <div class="contact-content-container">
+      <div class="contact-title">
+        <h1 class="monkeContact">Contact Us</h1>
+      </div>
+      <div class="contact-text">
+        <h3 class="betterText">
+          We're here to assist you on your journey to financial<br />
+          knowledge and success. Feel free to reach out to us<br />
+          through the contact form.<br />
+        </h3>
+      </div>
+    </div>
+
+    <div class="contact-container">
+      <div class="name-container">
+        <input class="full-name-input" placeholder="Full Name" type="text" id="name" />
+      </div>
+      <div class="email-container">
+        <input class="email-input" placeholder="Email Address" type="text" id="email" />
+      </div>
+      <div class="message-container">
+        <textarea class="message-input" placeholder="How Can We Help Today?" type="text" id="message"></textarea>
+      </div>
+      <div class="submit-container">
+        <button class="submit-button" onclick="sendEmail()">Submit</button>
+        <p id="submit-button-text"></p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-container"></footer>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="contact.js"></script>
+</body>
+
+
+
+</html>

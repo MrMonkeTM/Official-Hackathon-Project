@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Prompt;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-1000px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.wwrDiv {
+  background-color: #1b4ac5;
+  animation: appear 1s ease-in;
+  align-items: center;
+  vertical-align: center;
+  display: flex;
+  text-align: center;
+  padding: 15px;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+
+.left-section-header {
+  display: flex;
+  margin-left: 80px;
+}
+
+.website-logo {
+  cursor: pointer;
+}
+
+.center-section-header {
+  display: flex;
+  text-align: center;
+}
+
+.wwrHeader {
+  font-family: Prompt;
+  color: whitesmoke;
+  font-size: 230%;
+  animation: appear 1s ease-in;
+  cursor: pointer;
+}
+
+.right-section-header {
+  display: flex;
+  text-align: center;
+  margin-right: 80px;
+  gap: 50px;
+}
+
+.about-us-button,
+.lessons-button {
+  color: #1b4ac5;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.about-us-button:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.about-us-button:active {
+  opacity: 0.5;
+  transition: 0s;
+}
+
+.lessons-button:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.lessons-button:active {
+  opacity: 0.5;
+  transition: 0s;
+}
+
+.video-lessons-container-container {
+  display: grid;
+  row-gap: 70px;
+  column-gap: 70px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  place-items: center;
+}
+
+.video-lessons-container {
+  background-color: #D9D9D9;
+  width: 10000px;
+  height: 100px;
+  max-width: 550px;
+  height: 320px;
+  display: flex;
+  box-shadow: 12px 10px 12px rgba(0, 0, 0, 0.342);
+}
+
+.lessonimage1 {
+  background-image: url(https://media.discordapp.net/attachments/1034555884967317535/1146257292430426162/image.png);
+  background-size: 100%;
+  transition: all 1s;
+}
+
+
+.lessonimage1:hover,
+.lessonimage2:hover,
+.lessonimage3:hover,
+.lessonimage4:hover {
+  opacity: 80%;
+}
+
+.lessonimage2 {
+  background-image: url(https://investmentu.com/wp-content/uploads/2022/02/why-stocks-go-up-and-down.jpg);
+  background-size: 100%;
+  transition: all 1s;
+}
+
+.lessonimage3 {
+  background-image: url(https://images.inc.com/uploaded_files/image/1920x1080/getty_539953664_213316.jpg);
+  background-size: 100%;
+  transition: all 1s;
+}
+
+.lessonimage4 {
+  background-image: url(https://www.netscribes.com/wp-content/uploads/2019/05/Sales-and-Market-Intelligence-1.jpg);
+  background-size: 100%;
+  transition: all 1s;
+}
+
+.video-lessons-number-container {
+  background-color: #1b4ac5;
+  width: 100%;
+  max-width: 210px;
+  height: 80px;
+  position: relative;
+  top: 200px;
+  right: 20px;
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.video-lessons-number {
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+}
+
+.footer-container {
+  background-color: #1b4ac5;
+  animation: appear 1s ease-in;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  margin-top: 100px;
+  position: fixed;
+}
+
+@media screen and (max-width: 1280px) {
+  .video-lessons-container-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .about-us-button,
+  .lessons-button {
+    padding: 5px 15px;
+    font-size: 12.5px;
+  }
+
+  .left-section-header {
+    margin-left: 20px;
+  }
+
+  .right-section-header {
+    margin-right: 40px;
+    gap: 25px;
+  }
+
+  .wwrHeader {
+    font-size: 190%;
+  }
+
+  .video-lessons-number {
+
+    font-size: 22.5px;
+  }
+
+  .video-lessons-container {
+    max-width: 366.67px;
+    /* Updated max-width */
+    height: 213.33px;
+    /* Updated height */
+  }
+
+  .video-lessons-number-container {
+    max-width: 140px;
+    /* Updated max-width */
+    height: 53.33px;
+    /* Updated height */
+    top: 133.33px;
+    /* Updated top */
+    right: 13.33px;
+    /* Updated right */
+    padding: 20px 26.67px;
+    /* Updated padding */
+
+  }
+
+  .video-lessons-number {
+    color: whitesmoke;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .website-logo {
+    width: 30%;
+  }
+
+  .about-us-button,
+  .lessons-button {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+  .left-section-header {
+    margin-left: 10px;
+  }
+
+  .right-section-header {
+    margin-right: 10px;
+    gap: 15px;
+  }
+
+  .wwrHeader {
+    font-size: 150%;
+  }
+
+  .video-lessons-container {
+    max-width: 275px;
+    height: 160px;
+  }
+
+  .video-lessons-number-container {
+    max-width: 105px;
+    /* Updated max-width */
+    height: 40px;
+    /* Updated height */
+    top: 100px;
+    /* Updated top */
+    right: 10px;
+    /* Updated right */
+    padding: 15px 20px;
+    /* Updated padding */
+
+  }
+
+  .video-lessons-number {
+    color: whitesmoke;
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+.titleFont {
+    font-family: Prompt;
+}
+
+.centerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1B4AC5;
+    color: whitesmoke;
+}
+
+.businessLogo {
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+    width: 30%;
+}
+
+.businessLogo:hover {
+    background-color: darkblue;
+}
+
+.btnPosition,
+.btnPosition2,
+.btnPosition3 {
+    position: relative;
+}
+
+.btnStyling {
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    font: 20px 'Roboto Mono', monospace;
+    transition: all 0.3s;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.btnStyling:hover {
+    background-color: grey;
+    cursor: pointer;
+    color: #1B4AC5;
+}
+
+.footerSize {
+    color: whitesmoke;
+    font: 10px Inter;
+    height: fit-content;
+    background-color: #1B4AC5;
+}
+
+.aboutUs,
+.termsConditions,
+.contactUs {
+    position: relative;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 10px;
+    color: whitesmoke;
+}
+
+.copyRight {
+    position: relative;
+    text-align: center;
+}
+
+.typeWriterdiv {
+    padding: 3% 3% 0 3%;
+    display: inline-block;
+}
+
+.typeWriterText {
+    font-family: monospace;
+    display: inline-block;
+    font-size: 4em;
+    letter-spacing: 10px;
+    border-right: 5px solid;
+    width: 100%;
+    padding-left: 10px;
+    overflow: hidden;
+    animation: typing 2s, cursor 0.4s step-end infinite alternate;
+    padding-bottom: 0.5%;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+.unbrokeTitle {
+    letter-spacing: 3px;
+    padding-right: 10px;
+    font-size: 100px;
+    font-family: Jomhuria;
+    text-align: center;
+}
+
+.foOter {
+    background: #1B4AC5;
+    position: relative;
+    bottom: 0;
+    height: 90px;
+}
+
+.left-section-header {
+    display: inline-flex;
+}
